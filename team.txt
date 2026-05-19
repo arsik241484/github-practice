@@ -1,0 +1,13 @@
+git clone https://github.com/arsik241484/github-practice.git
+cd git-practice
+
+git checkout -b feature/add-team-file
+
+echo "team lead:  мое имя" > team. txt
+echo "Developer:  Анна" >> team. txt
+echo "Developer:  Игорь" >> team. txt
+
+git add team.txt
+git commit -m "feat: add team.txt with team members"
+
+git push origin feature/add-team-file
